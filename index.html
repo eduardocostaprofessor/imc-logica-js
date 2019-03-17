@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Cadastro IMC >></h1>
+    <form>
+        <fieldset>
+            <legend>Cadastro</legend>
+
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="number" id="altura" placeholder="Altura em Metros ex 1.67">
+            <input type="number" id="peso" placeholder="Peso em Quilos">
+            <button type="button" onclick="calcular()">Calcular</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Altura</th>
+                    <th>Peso</th>
+                    <th>Imc</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+
+            <tbody id="cadastro">
+                <tr>
+                    <td>João</td>
+                    <td>1.8</td>
+                    <td>95</td>
+                    <td>29.32</td>
+                    <td>Acima do peso</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>1.8</td>
+                    <td>95</td>
+                    <td>29.32</td>
+                    <td>Acima do peso</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>1.8</td>
+                    <td>95</td>
+                    <td>29.32</td>
+                    <td>Acima do peso</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>1.8</td>
+                    <td>95</td>
+                    <td>29.32</td>
+                    <td>Acima do peso</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>1.8</td>
+                    <td>95</td>
+                    <td>29.32</td>
+                    <td>Acima do peso</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>1.8</td>
+                    <td>95</td>
+                    <td>29.32</td>
+                    <td>Acima do peso</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
